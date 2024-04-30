@@ -1,0 +1,28 @@
+{
+  "name": "stopwatchapp",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/stopwatch.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipedemelodg/stopwatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipedemelodg/stopwatch/issues"
+  },
+  "homepage": "https://github.com/felipedemelodg/stopwatch#readme",
+  "description": "",
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
