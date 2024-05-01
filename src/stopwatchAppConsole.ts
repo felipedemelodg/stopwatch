@@ -8,6 +8,7 @@ export function stopwatchAppConsole() {
   const consoleAdapter = new ConsoleAdapter();
   useCase.start();
   setInterval(() => {
+    console.clear()
     const time = useCase.getTime();
     consoleAdapter.displayTime(time);
   }, 1000);
