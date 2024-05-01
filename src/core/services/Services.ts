@@ -7,7 +7,7 @@ export interface ServiceInterface {
   getTime(): Entity;
 }
 
-export class ServiceInterface implements ServiceInterface {
+export class Service implements ServiceInterface {
   private hours: number = 0;
   private minutes: number = 0;
   private seconds: number = 0;
