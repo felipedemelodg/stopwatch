@@ -6,7 +6,7 @@ export class Entity {
   ) {}
 
   static pad(num: number): string {
-    return num < 10 ? "0" : num.toString();
+    return (num < 10 )? "0" + num : num.toString();
   }
   toString(): string {
     return (
