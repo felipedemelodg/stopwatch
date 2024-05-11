@@ -1,3 +1,3 @@
-import { stopwatchAppConsole } from "./stopwatchAppConsole";
+import { stopwatchAppConsole } from "./stopwatch";
 
 stopwatchAppConsole()
