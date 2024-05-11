@@ -3,6 +3,7 @@ import { Port } from "../ports/Ports";
 
 export class ConsoleAdapter implements Port{
     displayTime(time: Entity): void {
+         console.clear()
         console.log(time.toString())
     }
 }
